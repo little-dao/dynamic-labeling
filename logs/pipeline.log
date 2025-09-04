@@ -1,0 +1,38 @@
+2025-09-03 21:18:08,209 - INFO - Using device: cpu
+2025-09-03 21:18:08,211 - INFO - Stage 1: Data Processing
+2025-09-03 21:18:08,212 - INFO - Processing raw data...
+2025-09-03 21:18:20,499 - INFO - Processed data saved to data\processed_data.pkl
+2025-09-03 21:18:20,500 - ERROR - Data processing failed: need at least one array to concatenate
+2025-09-03 21:18:20,500 - ERROR - Pipeline failed: need at least one array to concatenate
+2025-09-03 21:18:20,500 - ERROR - Pipeline execution failed: need at least one array to concatenate
+2025-09-03 22:01:08,587 - INFO - Using device: cpu
+2025-09-03 22:01:08,587 - INFO - Stage 1: Data Processing
+2025-09-03 22:01:08,588 - INFO - Loading existing processed data...
+2025-09-03 22:01:08,588 - ERROR - Data processing failed: need at least one array to concatenate
+2025-09-03 22:01:08,588 - ERROR - Pipeline failed: need at least one array to concatenate
+2025-09-03 22:01:08,589 - ERROR - Pipeline execution failed: need at least one array to concatenate
+2025-09-03 22:01:24,721 - INFO - Using device: cpu
+2025-09-03 22:01:24,722 - INFO - Stage 1: Data Processing
+2025-09-03 22:01:24,722 - INFO - Processing raw data...
+2025-09-03 22:01:26,802 - ERROR - 
+4 Failed downloads:
+2025-09-03 22:01:26,802 - ERROR - ['AAPL', 'GOOGL', 'BTC-USD', 'MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-09-03 22:01:26,842 - INFO - Processed data saved to data\processed_data.pkl
+2025-09-03 22:01:26,842 - ERROR - Data processing failed: need at least one array to concatenate
+2025-09-03 22:01:26,843 - ERROR - Pipeline failed: need at least one array to concatenate
+2025-09-03 22:01:26,843 - ERROR - Pipeline execution failed: need at least one array to concatenate
+2025-09-03 22:04:12,522 - INFO - Using device: cpu
+2025-09-03 22:04:12,522 - INFO - Stage 1: Data Processing
+2025-09-03 22:04:12,523 - INFO - Loading existing processed data...
+2025-09-03 22:04:12,523 - ERROR - Data processing failed: need at least one array to concatenate
+2025-09-03 22:04:12,523 - ERROR - Pipeline failed: need at least one array to concatenate
+2025-09-03 22:04:12,524 - ERROR - Pipeline execution failed: need at least one array to concatenate
+2025-09-03 22:04:29,325 - INFO - Using device: cpu
+2025-09-03 22:04:29,325 - INFO - Stage 1: Data Processing
+2025-09-03 22:04:29,326 - INFO - Found raw data, processing...
+2025-09-03 22:04:38,090 - INFO - Processed data saved to data\processed_data.pkl
+2025-09-03 22:04:38,091 - INFO - AAPL: 946 sequences, 60 timesteps, 56 features
+2025-09-03 22:04:38,091 - INFO - MSFT: 946 sequences, 60 timesteps, 56 features
+2025-09-03 22:04:38,103 - INFO - Total features shape: (1892, 60, 56)
+2025-09-03 22:04:38,103 - INFO - Pipeline completed successfully!
+2025-09-03 22:04:38,103 - INFO - Pipeline execution completed successfully!
